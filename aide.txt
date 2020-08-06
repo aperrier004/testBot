@@ -1,0 +1,22 @@
+Un bot Telegram fonctionne avec des conversations, c'est-à-dire que vous engagez une intéraction avec une commande commençant par un \,
+puis le bot va agir en fonction.
+Cette conversation se termine lorsque le bot ne vous demande pas explicitement une réponse.
+Si vous envoyez un message et que le bot ne répond pas, c'est que vous n'êtes pas dans une conversation, votre s'est perdu... ou peur-être pas 😏
+Vous pouvez alors commencer une autre conversation avec une commande commençant par un \.
+
+
+Commande possibles :
+/start : inscription si pas déjà fait
+/start_again : changement idendité
+/help : ça
+/salle : faire une action dans la salle où tu te trouves (au départ dans le lieu 1)
+/map : voir organisation des salles
+/suspects : voir la liste des suspects, armes, lieux
+/proposer : tenter de deviner le meurtrier -> erreur=pénalité
+/secrets : essayer d'entrer dans la salle des secrets (des indices sont cachés dans le bot)
+/cancel : quitter la conversation en cours, arrêter l'action en cours
+
+Conseil :  papier et crayon pour prendre des notes
+Procéder par élimination
+Seule la commande /cancel fonctionne pendant une conversation active
+(Si le bot ne demande pas clairement une réponse c'est que vous n'êtes plus dans une conversation, vous pouvez de nouveau exécuter une nouvelle commande)
