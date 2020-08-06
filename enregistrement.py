@@ -105,6 +105,7 @@ def pseudo(update, context):
     update.message.reply_text(finish_start)
     context.bot_data["users"][user_id]["registration_time"] = time.time()
     print(context.bot_data["users"][user_id]["prenom"] + " s'est inscrit.")
+    context.bot.send_message(chat_id=id_BDAmour, text=context.bot_data["users"][user_id]["prenom"] + " s'est inscrit.")
     # logger.info("[/start] User {} updated its data : {}".format(user_id, user_str))
     # logger.info("[/start] Current users :\n" + pformat(context.bot_data["users"]))
     return ConversationHandler.END

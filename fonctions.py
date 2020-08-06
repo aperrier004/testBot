@@ -6,7 +6,7 @@ def photoecho(update, context):
 
     chat_id = update.effective_chat.id
     user_id = update.effective_user.id
-
+    print(chat_id)
     print("[photoecho] user {} sent a picture, which characteristics are :".format(user_id))
     fsiz = 0
     for photosiz in update.message.effective_attachment:
@@ -50,3 +50,9 @@ def user_recap(user_data) :
                                          user_data["end_time"] - user_data["registration_time"])
     except :
         return user_data["temps"]
+
+def recup(update, context) :
+    #récupère l'id du groupe
+    chat_id = update.effective_chat.id
+    print(chat_id)
+    return ConversationHandler.END

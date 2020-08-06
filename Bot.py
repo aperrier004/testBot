@@ -106,6 +106,7 @@ dispatcher.add_handler(secrets_handler)
 dispatcher.add_handler(CommandHandler("help", help))
 dispatcher.add_handler(CommandHandler("map", map))
 dispatcher.add_handler(CommandHandler("suspects", suspects))
+dispatcher.add_handler(CommandHandler("recup", recup))
 
 dispatcher.add_handler(MessageHandler(Filters.photo, photoecho))
 dispatcher.add_handler(MessageHandler(Filters.text, test))
