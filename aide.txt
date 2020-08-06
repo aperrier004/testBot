@@ -19,4 +19,4 @@ Commande possibles :
 Conseil :  papier et crayon pour prendre des notes
 Procéder par élimination
 Seule la commande /cancel fonctionne pendant une conversation active
-(Si le bot ne demande pas clairement une réponse c'est que vous n'êtes plus dans une conversation, vous pouvez de nouveau exécuter une nouvelle commande)
+(Si le bot ne demande pas clairement une réponse c'est que vous n'êtes plus dans une conversation, vous pouvez de nouveau exécuter une nouvelle commande)(ça redit ce qu'il y a au début je sais pas si c'est nécessaire)
