@@ -35,8 +35,9 @@ def remove_accents(input_str):
     return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
 
 def test(update, context):
+    user_id = update.effective_user.id
     user_input = update.message.text[:30].strip().replace("\n", " ")
-    print(user_input)
+    print(context.bot_data["users"][user_id]["pseudo"] + " dit : " + user_input + "\n")
 
 def user_recap(user_data) :
     #affichage recap

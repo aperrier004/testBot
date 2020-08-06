@@ -71,7 +71,7 @@ def lieu(update, context):
             context.bot_data["users"][user_id]["end_time"] = time.time()
             update.message.reply_text(bravo)
             print(context.bot_data["users"][user_id]["prenom"] + " a trouvé !")
-            print(user_recap(context.bot_data["users"][user_id]))
+            print(user_recap(context.bot_data["users"][user_id]) + "\n")
             context.bot.send_message(chat_id=id_BDAmour, text=context.bot_data["users"][user_id]["prenom"] + " a trouvé !\n" + user_recap(context.bot_data["users"][user_id]))
         else:
             update.message.reply_text(dommage)
