@@ -65,18 +65,36 @@ carte_photo = "AgACAgQAAxkBAANvXvdtowO10F1mXYRtNwN8bkr5H84AAh60MRs1ILhTqDAIXBc67
 suspects_photo = "AgACAgQAAxkBAANuXvdtNWOOnNyYe9mGiS06sBUEXKoAAhm0MRs1ILhTM6hM1lNl5zXgnXcjXQADAQADAgADeQAD_18BAAEaBA"
 # envoyer une image au bot, choper son file_id dans la console avec photoecho et le coller ici
 
-lieux_description = [["le Lieu 1", [LIEU2, LIEU3], image1, indice1],
-                     ["le Lieu 2", [LIEU1, LIEU4], image2, indice2],
-                     ["le Lieu 3", [LIEU1, LIEU5], image3, indice3],
-                     ["le Lieu 4", [LIEU2, LIEU5], image4, indice4],
-                     ["le Lieu 5", [LIEU3, LIEU4], image5, indice5],
+lieu1 = "les salles S101/3"
+lieu2 = "le grand amphi"
+lieu3 = "le foyer"
+lieu4 = "le patio"
+lieu5 = "le petit amphi"
+
+perso1 = "Bernard CLAVERIE"
+perso2 = "Baptiste PESQUET"
+perso3 = "Pierre-Alexandre FAVIER"
+perso4 = "Véronique LESPINET"
+perso5 = "Jérôme SARACCO"
+
+arme1 = "une balle de bière pong"
+arme2 = "le distributeur du hall sud"
+arme3 = "la serpillère du foyer"
+arme4 = "le piano"
+arme5 = "un briquet décapsuleur"
+
+lieux_description = [[lieu1, [LIEU2, LIEU3], image1, indice1],
+                     [lieu2, [LIEU1, LIEU4], image2, indice2],
+                     [lieu3, [LIEU1, LIEU5], image3, indice3],
+                     [lieu4, [LIEU2, LIEU5], image4, indice4],
+                     [lieu5, [LIEU3, LIEU4], image5, indice5],
                      ["la Chambre des Secrets", [LIEU1, LIEU2, LIEU3, LIEU4, LIEU5], image6, indice6]]
 
-perso = ["Perso1", "Perso2", "Perso3", "Perso4", "Perso5"]
+perso = [perso1, perso2, perso3, perso4, perso5]
 
-armes = ["Arme1", "Arme2", "Arme3", "Arme4", "Arme5"]
+armes = [arme1, arme2, arme3, arme4, arme5]
 
-lieux = ["le Lieu 1", "le Lieu 2", "le Lieu 3", "le Lieu 4", "le Lieu 5"]
+lieux = [lieu1, lieu2, lieu3, lieu4, lieu5]
 
 MEURTRIER, ARME, LIEU = range(3)
 
