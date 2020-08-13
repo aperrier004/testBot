@@ -1,29 +1,27 @@
-Mot de passe : enseirb
+Mot de passe : badge
 
 --Salles--
-p'e'tit amphi
+petit amphi
 grand amphi
-pat'i'o
+patio
 foyer
-hall sud
+hall sud  NOP
 S101/3
-cuisine
-local (chambre des secrets ?)
-toilettes (chambre des secrets ?)
+cuisine   NOP
+local (chambre des secrets)
 
 --Perso--
-Claveri'e'
-Pesquet
-Le'b'lanc
-PAF
-Lespi'n'et
-Clermont
-Saracco
+Claverie  OK
+Pesquet     OK
+Leblanc   NOP
+PAF         OK
+Lespinet  OK
+Clermont    NOP
+Saracco     OK
 
---A'r'mes--
-Absence de badge
-Animaux sous le patio
-Rondin de bois pendant les campagnes
-Catapoulpe
-Manque de communication
-Overdo's'e de projets
+--Armes--
+balle de bière pong : petite boule poisseuse à l'apparence inoffensive, mais peut faire de gros dégât selon l'alcoolémie du lanceur
+distributeur du hall sud : machine d'une autre dimension qui peut faire disparaître n'importe quoi sans laisser de trace
+serpillère du foyer : imbibée de trop nombreux poisons inconnues, peut dissoudre un corps au moindre contact
+piano : sa mélodie envoûtante peut vous faire oublier le TP d'info qui a commencé il y a 2 minutes, à vos risques et périls
+briquet décapsuleur : goodies fabriqué par un enfant chinois sous payé, susceptible d'exploser (le briquet, pas le chinois) à la moindre utilisation

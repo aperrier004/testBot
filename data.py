@@ -114,7 +114,7 @@ try_agains = ["Essaie encore !",
               "Ce n'est pas la bonne réponse",
               "Cherche encore !"]
 
-MDP = "pantoufle"
+MDP = "badge"
 INTREPIDES = range(1)
 
 id_BDAmour = -430587684
