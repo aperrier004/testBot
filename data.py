@@ -23,7 +23,7 @@ indice = " Voici ton indice."
 aide = "Voici le rappel."
 carte = "Voici l'organisation des salles."
 chambre_secrets = "Ah tu veux entrer dans la chambre des secrets ? Nous n'allons pas te simplifier la tâche.\nEn connais tu le mot de passe ? 🗝️"
-penetration = "Hmm, je vous que tu n'es pas un moldu comme les autres... Tu gagnes le droit de penérer dans la Chambre des Secrets ! 🚽"
+penetration = "Hmm, je vous que tu n'es pas un moldu comme les autres... Tu gagnes le droit de penérer dans la Chambre des Secrets ! 🎉 🏁"
 echec = "C'est bien ce que je pensais, tu n'es qu'un simple moldu... Passes ton chemin. 👉"
 suspect = "Voici la liste des suspects."
 

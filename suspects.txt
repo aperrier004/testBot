@@ -1,5 +1,3 @@
-Mot de passe : badge
-
 --Salles--
 petit amphi
 grand amphi
